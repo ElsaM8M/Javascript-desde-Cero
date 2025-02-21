@@ -2,23 +2,22 @@
 
 //Condicionales (Jaula mediana, Jaula grande, Jaula pequeña)
 
-let tipoDeMascota = "Perro"
+let tipoDeMascota = "Elefante"
 
-if (tipoDeMascota ==="Perro"){
+if (tipoDeMascota === "Perro"){
     console.log("Si tienes un perro, necesitas la jaula grande");
-} else if (tipoDeMascota === Gato){
+} else if (tipoDeMascota === "Gato"){
     console.log("Si tienes un gato, necesitas la jaula mediana");
-} else if (tipoDeMascota === Hamster){
+} else if (tipoDeMascota === "Hamster"){
     console.log("Si tienes un hamster, necesitas la jaula pequeña");
-}else{
+}else{ //ELSE es el bloque falso (se ejecuta su no se cumple ninguna de las condiciones anteriores)
     console.log("No contamos con jaulas para esa mascota");
-}// Else es el bloque falso (se ejecutas si no se cmple ninguna de las condiciones anteriores)
-
+}
 
 //semaforo color = Rojo, Amarillo, Verde
 //Rojo = Alto, Amarillo = Detente, Verde = Siga
-let color = "Amarillo"
- 
+let color = "Amarillo";
+
 if(color === "Verde"){
     console.log("Siga");
 } else if(color === "Amarillo"){
@@ -28,8 +27,8 @@ if(color === "Verde"){
 }
 
 
-let edad = 17
-let tieneLicencia = "true"
+let edad = 17;
+let tieneLicencia = "true";
 
 if(edad >= 18 && tieneLicencia){
     console.log("Puedes conducir");
@@ -37,9 +36,10 @@ if(edad >= 18 && tieneLicencia){
     console.log("No puedes conducir");
 }
 
+//Para poder obtener una beca
 
-let creditos = 10;
-let promedio = 7.5;
+let creditos = 10; //Minimo 10 creditos
+let promedio = 8.5; //minimo 8.5
 
 if(creditos >= 10 && promedio >= 8.5){
     console.log("tienes derecho a una beca");
@@ -52,14 +52,16 @@ if(creditos >= 10 && promedio >= 8.5){
 }
 
 
-let Nota = 59
+let nota = 59; //Puedes cambiar este valor para probar diferentes casos
 
-if (Nota >= 90){
+if (nota === ""){
+    console.log("No pusiste la nota");
+} else if (nota >= 90){
     console.log("La calificación que obtuvo es: Excelente")
-} else if (Nota > 75){
+} else if (nota >= 75){
     console.log("La calificación que obtuvo es: Buena")
-} else if (Nota > 60){
+} else if (nota >= 60){
     console.log("La calificación que obtuvo es: Suficiente")
-}else if (Nota < 60){
+}else {
     console.log("La calificación que obtuvo es: No Aprobatoria")
 }

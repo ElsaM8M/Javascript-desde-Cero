@@ -25,4 +25,25 @@ console.log(typeof(dato));
 var nombre = "Francia"
 var pais = "20"
 
-//si ponemos typeof de null dirá que es un objeto, pero en realidad es ausenciaintencionalde valor. Esto es debido a un error de JavaScript por compatibilidad con versiones anteriores
+//NaN (not a number) es un valor especial que indica que una operación matemática no es un número
+console.log(10 * "Ana");
+
+
+//Comentario en linea
+/*comentario en bloque o multilinea*/
+
+/* si ponemos typeof de null dirá que es un objeto, pero en realidad es ausenciaintencionalde valor. Esto es debido a un error de JavaScript por compatibilidad con versiones anteriores*/
+
+//Ejercicios de capus
+
+console.log(typeof(42));
+console.log(typeof("veinticinco"));
+console.log(typeof(-666));
+console.log(typeof("true"));
+console.log(typeof(0));
+//console.log(typeof("));//parece error de sintaxis
+console.log(typeof("null"));
+console.log(typeof("undefined"));
+console.log(typeof("FALSE"));
+console.log(typeof("True"));
+console.log(typeof(1.666));
