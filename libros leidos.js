@@ -11,12 +11,11 @@ agregarLibro("El principito");
 agregarLibro("Las mujeres que amaban demasiado");
 agregarLibro("Los 7 esposos de Evelyn Hugo");
 
-
 console.log(librosLeidos); //imprimir el arreglo
 
 //mostrar los libros leidos
 function mostrarLibrosLeidos(){
-    for(let i = 0; i< librosLeidos.length; i++){
+    for(let i = 0; i< librosLeidos.length; i++){//lengt manda el largo del arreglo e i es de la variable de inicio
         console.log(librosLeidos[i])
     }
 }
